@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS weather_data (
+	weather_id SERIAL PRIMARY KEY,
+	location_name VARCHAR(100) NOT NULL,
+	record_time TIMESTAMPTZ NOT NULL,
+	temperature_c DOUBLE PRECISION,
+	rainfall_mm DOUBLE PRECISION,
+	created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+);
