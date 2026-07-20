@@ -18,12 +18,14 @@ This project collects weather data from an External API and Store it into Postgr
 * Transform the API arrays into individual weather records
 * Converted API timestamps into timezone using python datetime values
 * Validated that all API arrays have watching lengths
+* Loaded transform weather data records into PostgreSQL
+* verified the inserted records using SQL queries
 
 
 
 \## Planned Pipeline
 
-Open weather API > Python > PostgreSQL
+Open weather API > Python Extraction > Data Transformation > PostgreSQL weather\_data table
 
 
 
