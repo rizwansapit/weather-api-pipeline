@@ -15,6 +15,7 @@ This project collects weather data from an External API and Store it into Postgr
 * Added PostgreSQL connection configuration
 * Connected Python to PostgreSQL using Psycopg
 * Verified the 'weather\_data' table from python
+* 
 
 
 
@@ -28,25 +29,9 @@ Open weather API > Python > PostgreSQL
 
 Python  > PostgreSQL connection established
 
+Open-mateo API > Python
 
-
-\# Project Structure
-
-weather-api-pipeline/
-
-|- sql/
-
-&#x20;    - create\_tables.sql
-
-|- database.py
-
-|- .env.example
-
-|- .gitignore
-
-|- README.md
-
-|- requirements.txt
+The API Data has not been inserted into PostgreSQL yet
 
 
 
